@@ -1,0 +1,61 @@
+.banner-content-container {
+  color: #383838;
+  margin-top: auto;
+}
+
+.banner-logo {
+  height: 50px;
+  width: 200px;
+}
+.buy-now-btn {
+  height: 45px;
+  width: 100px;
+  color: #00306e;
+  border: 1px solid #00306e;
+  padding: 5px 10px 5px 10px;
+  border-radius: 5px;
+  background-color: transparent;
+  font-size: 12px;
+  font-family: Roboto;
+  font-weight: 600;
+}
+.banner-close-btn {
+  height: 15px;
+  background-color: transparent;
+  border: none;
+}
+
+.channel-logo {
+  height: 15px;
+  width: 15px;
+}
+.channel-info-bg {
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.video-details {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  padding: 0px;
+}
+.title {
+  font-size: 10px;
+  margin-top: 0px;
+  color: #616e7c;
+}
+.channel-name {
+  font-size: 10px;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  color: #616e7c;
+}
+.view-count {
+  font-size: 10px;
+  margin-top: 0px;
+  color: #616e7c;
+}
+.link {
+  text-decoration: none;
+}

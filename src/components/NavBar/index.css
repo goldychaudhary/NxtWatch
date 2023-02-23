@@ -1,0 +1,55 @@
+.logo {
+  height: 30px;
+  width: 100px;
+}
+.theme-pic {
+  height: 20px;
+  width: 20px;
+}
+.profile-pic-bg {
+  display: none;
+}
+.nav-icons {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  width: 30%;
+}
+.toggle-btn {
+  background-color: transparent;
+  border: none;
+}
+.link-container {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+.red {
+  color: red;
+}
+.gray {
+  color: gray;
+}
+
+@media screen and (min-width: 768px) {
+  .logo {
+    height: 50px;
+    width: 200px;
+  }
+  .theme-pic {
+    height: 45px;
+    width: 50px;
+  }
+  .profile-pic-bg {
+    display: block;
+  }
+  .profile-pic {
+    height: 45px;
+  }
+}
+
+.ham-popup {
+  background-color: gray;
+  z-index: 1;
+}
